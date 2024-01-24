@@ -12,7 +12,7 @@ Assicurati di avere SQLite installato sul tuo sistema. Puoi farlo seguendo la gu
 
 
 ```
-sql
+python
 CREATE TABLE Person (
     id INTEGER PRIMARY KEY,
     name TEXT,
@@ -25,7 +25,7 @@ CREATE TABLE Person (
 
 
 ```
-sql
+python
 INSERT INTO Person (name, age) VALUES ('John Doe', 30);
 ```
 
@@ -33,7 +33,7 @@ INSERT INTO Person (name, age) VALUES ('John Doe', 30);
 
 
 ```
-sql
+python
 SELECT * FROM Person;
 
 ```
