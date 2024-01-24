@@ -10,29 +10,40 @@ Assicurati di avere SQLite installato sul tuo sistema. Puoi farlo seguendo la gu
 
 ### 1. Creazione del Database
 
-
-```
-python
+```sql
 CREATE TABLE Person (
     id INTEGER PRIMARY KEY,
     name TEXT,
     age INTEGER
 );
-
+```
 
 ### 2. Inserimento di una Persona
 
-
-```
-python
+```sql
 INSERT INTO Person (name, age) VALUES ('John Doe', 30);
 ```
 
 ### 3. Lettura di tutte le Persone
 
-
-```
-python
+```sql
 SELECT * FROM Person;
-
 ```
+
+### 4. Aggiornamento di una Persona
+
+```sql
+UPDATE Person SET age = 31 WHERE name = 'John Doe';
+```
+
+### 5. Cancellazione di una Persona
+
+```sql
+DELETE FROM Person WHERE name = 'John Doe';
+```
+
+## Contribuisci
+
+Se vuoi migliorare questo repository, sentiti libero di inviare una pull request! 🎉
+
+Grazie per essere qui e divertiti a esplorare SQLite senza ORM con operazioni CRUD su una tabella Person! 😊
