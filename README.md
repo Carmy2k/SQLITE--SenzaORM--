@@ -19,7 +19,6 @@ CREATE TABLE Person (
     age INTEGER
 );
 
-```
 
 ### 2. Inserimento di una Persona
 
