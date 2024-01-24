@@ -10,21 +10,22 @@ Assicurati di avere SQLite installato sul tuo sistema. Puoi farlo seguendo la gu
 
 ### 1. Creazione del Database
 
-sql
+'''sql
 CREATE TABLE Person (
     id INTEGER PRIMARY KEY,
     name TEXT,
     age INTEGER
 );
-
+'''
 
 ### 2. Inserimento di una Persona
 
-sql
+'''sql
 INSERT INTO Person (name, age) VALUES ('John Doe', 30);
-
+'''
 
 ### 3. Lettura di tutte le Persone
 
-sql
+'''sql
 SELECT * FROM Person;
+'''
